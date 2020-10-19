@@ -4,7 +4,8 @@
   "description": "This is an implementation of The Rick and Morty API with Vanilla JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
     "Javascript",
